@@ -1,0 +1,14 @@
+interface:
+  display_name: 华为杯数学建模工作流
+  short_description: 按指定阶段维护计划与待办，完成实验及验证后再撰写 Markdown 建模论文
+  default_prompt: 请使用 $huawei-mathmodel 按阶段处理题目，维护清晰的 plan.md 和 todo.md，完成本轮指定范围后停止，全部计划内实验和必要验证完成后再写
+    Markdown 论文。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
